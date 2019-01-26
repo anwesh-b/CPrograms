@@ -12,4 +12,5 @@ main()
 	if(a<5)
 	printf("\n");
 	}
+	getch();
 }

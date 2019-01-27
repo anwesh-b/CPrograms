@@ -1,3 +1,5 @@
+//WAP to print a full pyramid upto n blocks
+
 #include<stdio.h>
 #include<conio.h>
 int main()

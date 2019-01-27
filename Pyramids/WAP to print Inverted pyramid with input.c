@@ -1,3 +1,4 @@
+//WAP to print a inverted pyramid by taking an input from user
 #include<stdio.h>
 #include<conio.h>
 int main()

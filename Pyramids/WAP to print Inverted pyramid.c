@@ -1,3 +1,5 @@
+//WAP to print an inverted pyramid upto 5
+
 #include<stdio.h>
 #include<conio.h>
 int main()

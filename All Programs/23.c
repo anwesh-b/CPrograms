@@ -14,28 +14,26 @@ void main()
 	scanf("%d",&income);
 	if(income<10000)
 	{
-		printf("You donot need to pay tax");
-		printf("Net income = %d",income);
+		printf("\nYou donot need to pay tax");
+		printf("\nNet income = %d",income);
 	}
 	else if (income>=10000&&income<=19999)
 	{
-		printf("You need to pay 10%% tax");
+		printf("\nYou need to pay 10%% tax");
 		net=income-(income/10);
-		printf("Net income = %d",net);
+		printf("\nNet income = %d",net);
 	}
-	else if(income>=20000&&income<=39999);
+	else if (income>=20000&&income<=39999)
 	{
-		printf("You need to pay 15%% tax");
+		printf("\nYou need to pay 15%% tax");
 		net=income-(15*income/100);
-		printf("Net income = %d",net);
+		printf("\nNet income = %d",net);
 	}
 	else 
 	{
-		printf("You need to pay 20%% tax");
+		printf("\nYou need to pay 20%% tax");
 		net=income-(income/5);
-		printf("Net income = %d",net);
+		printf("\nNet income = %d",net);
 	}
 	getch();
 }
-
-

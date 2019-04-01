@@ -3,10 +3,11 @@
 #include<conio.h>
 void swap(int *x,int *y)
 {
-	int log;
-	log=*x;
-	*y=log;
-	*x=*y;
+	int log0,log1;
+	log0=*x;
+	log1=*y;
+	*y=log0;
+	*x=log1;
 };
 void main()
 {

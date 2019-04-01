@@ -3,18 +3,17 @@
 #include<conio.h>
 void swap(int *x,int *y)
 {
-	int log0,log1;
-	log0=*x;
-	log1=*y;
-	*y=log0;
-	*x=log1;
+	int log;
+	log=*x;
+	*x=*y;
+	*y=log;
 };
 void main()
 {
 	int first,second,log;
 	printf("Enter any two numbers:\n");
 	scanf("%d %d",&first,&second);
-	print("The numebrs are %d and %d");
+	printf("The numebrs are %d and %d");
 	swap(&first,&second);
 	printf("After swap.\nThe numbers are %d and %d",first,second);
 	getch();
